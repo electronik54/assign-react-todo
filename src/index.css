@@ -1,0 +1,62 @@
+html{
+  background-color: #FECEA8;
+  
+}
+body {
+  margin: 20px;
+
+}
+h1{
+  font-size: 50px ;
+  font-weight: 600;
+  font-family: 'Indie Flower';
+  font-style: oblique;
+  padding-bottom: 15px;
+  color: #e84a5f;
+  margin-left: 40px;
+}
+h2{
+  color: #2a363b;
+  font-family: 'Indie Flower', cursive;
+  margin: 15px 15px 10px 10px;
+}
+label{
+  padding: 15px;
+  font-size: 25px;
+  color: #99b898;
+  font-weight: 700;
+  font-family: 'Lato', sans-serif;
+}
+
+.entry{
+  background-color:#f67280 ;
+  font-size: 20px;
+  margin: 10px;
+  display: inline-flex;
+  
+}
+.entryDone{
+  background-color: gray;
+  text-decoration: line-through;
+}
+
+.list > li > p{
+  color:white;
+  padding: 15px;
+}
+
+
+.hidden {
+  display: none;/*hide element*/
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0; /*fixed position with initial location on top left corner*/
+  width: 100vw;
+  height: 100vh; /*cover view port*/
+}
+.popup > p {
+  background-color: red;
+}
